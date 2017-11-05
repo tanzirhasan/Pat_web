@@ -1,0 +1,77 @@
+.bg-dark {
+  background: #000;
+  color: #fff; }
+
+.bg-pat {
+  background-color:rgba(50, 146, 166, 0.8) ;
+}
+.text-pat{
+  color: rgba(50, 146, 166, 0.8);
+}
+
+#about {
+  position: relative;
+  background-image: url("../images/usf-35.jpg");
+  min-height: 600px; }
+#about .primary-overlay {
+  background-color: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#main-footer {
+  height: 300px;
+  background-color:rgba(50, 146, 166, 0.8); }
+#main-footer a {
+  color: #fff; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px; }
+
+body {
+  margin-top: 105px; }
+
+
+#about .fa {
+  font-size: 25px; }
+
+
+
+#main-header img {
+  width: 100%;
+  height: 100%; }
+
+#main-header .port-item {
+  width: 30%; }
+#main-header .port-item .fa {
+    font-size: 2em; }
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important; } }
+
+@media (min-width: 991px) {
+  .name .fa {
+    font-size: 25px; } }
+
+@media (max-width: 576px) {
+  nav.container {
+    width: 100%; } }
+
